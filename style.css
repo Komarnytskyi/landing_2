@@ -92,7 +92,6 @@ b {
 }
 
 .section_2 {
-    height: 352.1875rem;
     background: #1A1A1A;
     padding: 0 11.5rem;
 }
@@ -288,7 +287,6 @@ b {
 .order_btn_dish {
     width: 6.25rem;
     height: 2.5rem;
-    flex-shrink: 0;
     border-radius: 43px;
     background: #262626;
     color: #303030;
@@ -399,36 +397,39 @@ b {
     background: rgba(0, 0, 0, 0.4);
 }
 
-.breakfast>p {
+.breakfast > p {
     text-align: center;
     color: #FFF;
     font-size: 0.875rem;
     line-height: 1.875rem;
 }
 
-.breakfast>p:nth-of-type(1) {
+.breakfast > p:nth-of-type(1) {
     margin: 4.06rem 0 1.56rem;
 }
 
-.breakfast>p:nth-of-type(2) {
+.breakfast > p:nth-of-type(2) {
     color: #FFF;
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
 
-.breakfast>p:nth-of-type(3) {
+.breakfast > p:nth-of-type(3) {
     margin: 2.81rem 0 3.75rem;
 }
-.meal_icons{
+
+.meal_icons {
     width: 9rem;
     scale: 0.8;
 }
-.meal_icons p{
+
+.meal_icons p {
     color: #FFFFFF;
-   margin-bottom: 0;
+    margin-bottom: 0;
     margin-left: 0.7rem;
 }
-.meal_block{
+
+.meal_block {
     width: 33.75rem;
     height: 9.375rem;
     padding: 1.88rem;
@@ -436,29 +437,202 @@ b {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10);
 
 }
-.lunch{
+
+.lunch {
     background: #252525;
 }
-.meal_block>p{
+
+.meal_block > p {
     color: #FFF;
     font-size: 1rem;
     line-height: 1.875rem;
 }
-.date{
+
+.date {
     margin-bottom: 0;
     color: #B3B3B3;
     font-size: 0.75rem;
     line-height: 1.5625rem;
 }
-.diner{
+
+.diner {
     background-image: url("images/diner.png");
 }
-.sweets{
+
+.sweets {
     background: #34C759;
 }
-.sweets_text{
+
+.sweets_text {
     background: #1A1A1A;
 }
-.sweets p{
+
+.sweets p {
     color: #1a1a1a;
 }
+
+.social_block {
+    width: 21.875rem;
+    height: 20.625rem;
+    background: #252525;
+}
+
+.media_name {
+    width: 6.625rem;
+    color: #BFBFBF;
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.875rem;
+}
+
+.follow_btn {
+    width: 6.25rem;
+    height: 2.5rem;
+    background: #363636;
+    border-radius: 20px;
+    color: #737373;
+    text-align: center;
+    font-size: 0.625rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 0.125rem;
+    border: none;
+}
+
+.social_link {
+    padding: 1rem;
+}
+
+.media_text {
+    padding: 1.25rem 2.25rem 1.25rem 1.85rem;
+}
+
+.media_text p {
+    width: 17.5rem;
+}
+
+.media_text p:nth-of-type(1) {
+    margin-bottom: 0;
+    color: #737373;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+}
+
+.media_text p:nth-of-type(2) {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+}
+
+.media_text p:nth-of-type(3) {
+    color: #34C759;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+}
+
+.instagram {
+    padding: 0;
+}
+
+.grey_line {
+    height: 0.125rem;
+    background: #303030;
+}
+
+footer {
+    background: #252525;
+    margin-top: 7.5rem;
+}
+
+.footer_top {
+    padding: 2.12rem;
+}
+
+.footer_info {
+    height: 9rem;
+    padding: 1.87rem;
+}
+
+.footer_info p {
+    color: #737373;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 3.75rem;
+    margin-bottom: 0;
+}
+
+.footer_info .logo {
+    transform: translateX(2rem);
+}
+
+@media (max-width: 1100px) {
+    .dishes {
+        flex-direction: column;
+        column-gap: 1.8rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .dishes {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+@media (max-width: 1350px) {
+    .chefs_food_photo img{
+        display: none;
+    }
+}
+
+/*@media (max-width: 1300px) {*/
+/*    .recipes_from_chefs {*/
+/*        flex-direction: column;*/
+/*        row-gap: 2rem;*/
+/*    }*/
+
+/*    .breakfast {*/
+/*        width: 33.75rem;*/
+/*        height: 9.375rem;*/
+/*        padding: 1.88rem;*/
+/*        background: #34C759;*/
+/*        border-radius: 6px;*/
+/*        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10);*/
+/*    }*/
+
+/*    .breakfast img {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .meal_arrow {*/
+/*        background: none;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1300px) {*/
+/*    .recipes_from_chefs {*/
+/*        flex-direction: row;*/
+/*    }*/
+
+/*    .breakfast {*/
+/*        margin-right: 3rem;*/
+/*    }*/
+/*    .meals{*/
+/*        flex-grow: 1;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1450px) {*/
+/*    .social {*/
+/*        align-items: center;*/
+/*        flex-direction: column;*/
+/*        row-gap: 1.8rem;*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1450px) {*/
+/*    .social {*/
+/*        flex-direction: row;*/
+/*    }*/
+/*}*/
